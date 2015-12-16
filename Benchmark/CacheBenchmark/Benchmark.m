@@ -91,7 +91,8 @@
     
     NSMutableArray *keys = [NSMutableArray new];
     NSMutableArray *values = [NSMutableArray new];
-    int count = 200000;
+//    int count = 200000;
+    int count = 100;
     for (int i = 0; i < count; i++) {
         NSObject *key;
         key = @(i); // avoid string compare
